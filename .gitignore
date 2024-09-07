@@ -1,0 +1,26 @@
+# Ignore Android Studio and emulator files
+.android/
+.idea/
+
+# Ignore system files
+AppData/
+Application Data/
+Cookies/
+Documents/My Music/
+Documents/My Pictures/
+Documents/My Videos/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+Temp/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
