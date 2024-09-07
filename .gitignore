@@ -1,26 +1,113 @@
-# Ignore Android Studio and emulator files
-.android/
+# Ignore Android Studio and IntelliJ IDEA files
 .idea/
+*.iml
+*.iws
+*.ipr
+
+# Ignore build and dependency directories
+build/
+.gradle/
+*.jar
+*.war
+*.ear
+
+# Ignore local configuration files
+local.properties
+
+# Ignore Dart/Flutter specific files and directories
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
 
 # Ignore system files
-AppData/
-Application Data/
-Cookies/
-Documents/My Music/
-Documents/My Pictures/
-Documents/My Videos/
-Local Settings/
-My Documents/
-NetHood/
-PrintHood/
-Recent/
-SendTo/
-Start Menu/
-Templates/
-Temp/
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Ignore macOS-specific files
 .DS_Store
 
+# Ignore Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore Linux-specific files
+*~
+
 # Ignore temporary files
 *.tmp
+*.bak
+*.orig
+
+# Ignore node modules if using Node.js
+node_modules/
+
+# Ignore Python virtual environment
+venv/
+.env/
+
+# Ignore IDE-specific files (e.g., VS Code, Sublime Text)
+.vscode/
+.sublime-project
+.sublime-workspace
+
+# Ignore backup and cache files
+*.backup
+*.cache
+
+# Ignore generated files
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+
+# Ignore log files
+*.log
+
+# Ignore project-specific files
+*.suo
+*.user
+*.userosscache
+*.suo
+*.tlog
+*.ncb
+*.sdf
+*.opensdf
+*.suo
+*.sdf
+
+# Ignore macOS, Windows, and Linux temporary files
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.log
+*.class
+*.pyc
+*.pyo
+*.pyd
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.out
+*.o
+*.obj
+*.exe
+*.app
+*.dmg
+*.iso
+*.jar
+*.war
+*.ear
+
+# Ignore directories
+node_modules/
+venv/
