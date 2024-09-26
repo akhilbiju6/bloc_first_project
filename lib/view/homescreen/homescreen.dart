@@ -65,7 +65,9 @@ class _HomescreenState extends State<Homescreen> {
             child: ListView.builder(
               itemCount: succesState.products.length,
               itemBuilder: (context, index) {
-              return ProductTileWidget(productdatamodel:succesState.products[index]);
+              return ProductTileWidget(
+                homeBloc: homeBloc,
+                productdatamodel:succesState.products[index]);
             },),
           ),
         );
